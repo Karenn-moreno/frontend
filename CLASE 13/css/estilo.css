@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 20vh;
+    background: #0062ff;
+    background-image: url("/imagenes/fondo.png");
+    background-size: cover;/*para que la imagen cubra todo fondo*/
+}
+
+.logo{
+    height: 100%; /*el 100 del header en alto*/
+    padding: 5px 25px;
+}
+
+.titulo{
+    height: 45%;
+}
+
+.home{
+    display: flex; /*separa los section al lado del otro*/
+}
+
+.in-flex{
+    flex: 1;
+    text-align: justify;
+}
+
+.in-flex-child{
+    flex:2;
+    padding: 25px;
+    margin-bottom: 0;
+}
+
+.in-flex p{
+    padding: 25px;
+    background: #ffff;
+    margin: 20px;
+}
+
+@media(max-width:678px/*tablet*/){
+    .home{
+        display:block;
+    }
+}

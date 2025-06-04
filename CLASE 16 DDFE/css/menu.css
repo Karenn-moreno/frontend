@@ -1,0 +1,22 @@
+#menu{
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    display:flex;
+    list-style-type: none;
+    margin-left: 20px;
+}
+#menu li{
+    background: #000;
+    margin-top:20px;
+    width: 160px;
+}
+#menu li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+#menu li a:hover{
+    background: #f76c09;
+    color: #ff0;
+}

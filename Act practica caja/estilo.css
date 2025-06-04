@@ -1,0 +1,88 @@
+
+*{ /*en todo la pagina elimino el por defecto*/
+    margin:0;
+    padding:0;
+}
+
+/*Ejemplo1*/
+#uno{
+    width: 120px;
+    height: 120px;
+    background: radial-gradient(rgb(251, 255, 42),#f00);
+}
+/*Ejemplo2*/
+#dos{
+    background:linear-gradient(rgb(255, 196, 0),rgb(255, 0, 0));
+    width:180px; 
+    height:100px; 
+    text-align:center;
+    padding-top:80px; /*para bajar en padding*/
+    margin:30px;
+}
+/*Ejemplo3*/
+#tres{
+    background:linear-gradient(rgb(255, 196, 0),rgb(255, 0, 0));
+    width:180px; 
+    height:100px; 
+    padding-top:80px; /*para bajar en padding*/
+    margin-top: 40px;
+    }
+/*Ejemplo 4*/
+#one{
+    width: 120px;
+    height: 120px;
+    background:linear-gradient(rgb(255, 196, 0),rgb(255, 0, 0));
+}
+#two{
+    width: 120px;
+    height: 120px;
+    background:linear-gradient(rgb(0, 255, 128),rgba(17, 236, 9, 0.719));
+}
+#three{
+    width: 120px;
+    height: 120px;
+    background:linear-gradient(rgb(0, 217, 255),rgb(4, 0, 255));
+}
+/*Ejemplo 5*/
+#c1{
+    width: 120px;
+    height: 120px;
+    background:linear-gradient(rgb(255, 196, 0),rgb(255, 0, 0));
+    margin-top: 25px;
+    margin-left: 20px;
+}
+#c2{
+    width: 120px;
+    height: 120px;
+    background:linear-gradient(rgb(0, 255, 128),rgba(17, 236, 9, 0.719));
+    margin-top: 25px;
+    margin-left: 20px;
+}
+#c3{
+    width: 120px;
+    height: 120px;
+    background:linear-gradient(rgb(0, 217, 255),rgb(4, 0, 255));
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+/*Ejemplo 6*/
+#b1{
+    width: 120px;
+    height: 120px;
+    background:linear-gradient(rgb(255, 196, 0),rgb(255, 0, 0));
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#b2{
+    width: 120px;
+    height: 120px;
+    background:linear-gradient(rgb(0, 255, 128),rgba(17, 236, 9, 0.719));
+    margin-left: 20px;
+}
+#b3{
+    width: 120px;
+    height: 120px;
+    background:linear-gradient(rgb(0, 217, 255),rgb(4, 0, 255));
+    margin-left: 20px;
+}

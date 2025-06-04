@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h2>ELEMENTOS DEL FORMULARIO</h2>
+    <form action="archivo.php">
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" autofocus required>
+        <br>
+
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario" placeholder="Tu nombre de usuario">
+        <br>
+
+        <label for="contra">Contraseña:</label>
+        <input type="password" id="contra" required>
+        <br>
+
+        <label>Autofoco:</label>
+        <input type="text">
+        <br>
+
+        <label>Correo Electronico:</label>
+        <input type="email" required>
+
+        <br>
+        <label>Patrones:</label>
+        <input type="text" pattern="[0-9]">
+        <br><br>
+        Hombre <input type ="radio" name="sexo" value ="Hombre">
+        Mujer <input type ="radio" name="sexo" value ="Mujer">
+
+        <br>
+
+        <p>Comida Favorita
+        <select>
+        </p><option>Pizza</option> 
+            <option selected>Helado</option>
+            <option>Pescado</option>
+            <option>Carne</option>
+            <option>Guiso</option>
+        </select>
+    </p>
+
+    <label>Comentarios</label>
+    <br>
+    <textarea></textarea>
+    <br>
+
+        <input type="reset" value=" Limpiar">
+        <input type="submit" value=".:Enviar:.">
+    </form>
+    <br><br>
+
+    <form>
+        <fieldset>
+            <legend>Selecciones sus intereses</legend>
+            <input type="checkbox" id="deporte" name="interes" value="deporte">
+            <label for="deporte">Deporte</label>
+            <br>
+            <input type="checkbox" id="arte" name="interes" value="arte">
+            <label for="arte">Arte</label>
+            <br>
+            <input type="checkbox" id="ciencia" name="interes" value="ciencia">
+            <label for="ciencia">Ciencia</label>
+        </fieldset>
+    </form>
+
+</body>
+</html>

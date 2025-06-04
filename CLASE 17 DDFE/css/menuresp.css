@@ -1,0 +1,34 @@
+#btn-menu{
+    display:none;
+}
+label{
+    display:none;
+    height: 30px;
+    padding: 10px;
+}
+label:hover{
+    cursor: pointer;
+}
+@media(max-width: 678px){
+   label{
+        display:flex;
+    }
+    #menu{
+        position:absolute; 
+        background: #f76c09;
+        width: 65%;
+        margin-left: -65%;
+        transition: all .3s; 
+     }
+    ul{
+        flex-direction: column; 
+       }
+    #menu li{
+        width: 100%;
+        background: #f76c09;
+        border-bottom: 1px solid #fff;
+    }
+    #btn-menu:checked ~ #menu{
+        margin: 0;
+    }
+    }

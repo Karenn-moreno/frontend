@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 150px;
+    background-image: url(../img/cabecera.jpg);
+    background-size: cover;
+}
+header p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #ff0;
+    font-weight: bold;
+    text-align: end;
+    margin-right: 25px;
+}
+.ico-face{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 50px;
+    left: 500px;
+}
+.ico-insta{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 50px;
+    left: 530px;
+}
+.ico-face:hover,.ico-insta:hover{
+    box-shadow: 5px 2px 5px rgba(255,255,0, .6);
+}
+nav, footer{
+    width: 100%;
+    height: 50px;
+    background: #000;
+}
+#principal{
+    width: 100%;
+    height: 500px;
+    background: #0f0;
+}
+article{
+    width: 80%;
+    height: 500px;
+    background: #fff;
+    float: left;
+}
+aside{
+    width: 20%;
+    height: 500px;
+    background: #f76c09;
+    float:left;
+    background-image: url(../img/fdo-aside.png);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+aside h2{
+    color: #ff0;
+    
+}
+#img-art{
+    width: 180px;
+    height: 180px;
+    float: right;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0, .5);
+}
+article h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: #f76c09;
+}
+article p{
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:larger;
+}
+
+/*-----MENU ASIDE -----*/
+aside ul{
+    list-style: none;
+    font-size: 19px;
+    
+}
+aside ul li{
+    padding:20px;
+}
+aside ul li a{
+    text-decoration: none;
+    color:#edb68f;
+    font-weight: bold;
+
+}
+aside ul li a:hover{
+    color: #ff0;
+    box-shadow: 5px 5px 5px rgba(0,0,0, .5);
+}
+@media(max-width:678px){
+    aside{
+        display: none;
+    }
+    article{
+        width: 100%;
+        height:fit-content;
+    }
+    header{
+        height: 100px;
+    }
+    header p{
+        display: none;
+        align-items: center;
+    }
+    #titulo_choco{
+        text-align: center;
+    }
+
+}

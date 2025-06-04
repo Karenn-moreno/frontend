@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>formulario</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/menuresp.css">
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+
+    <header>
+        <img src="img/chocolateria.png" id="titulo_Choco">
+        <a href="https://www.facebook.com/"><img src="img/facebook.png" class="ico-face"/></a>
+        <a href="https://www.instagram.com"><img src="img/instagram.png" class="ico-inst"/></a>
+        <p>Teléfono (011) 4660 4455</p>
+        <p>info@lachocolateria.com.ar</p>
+        <p>www.lachocolateria.com.ar</p>
+    </header>
+    <nav>
+        <!----------------PARA MENU RESPONSIVE----->
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"> <img src="img/BT-MENU.png"></label>
+        <!----------------------------------------->
+
+        <ul id="menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <main id="principal">
+        <h2>formulario</h2>
+        <form action="#" method="post" id="miformulario">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required/>
+
+            <label for="email">correo electronico</label>
+            <input type="email" id="email" name="email" required/>
+
+            <textarea id="comentarios" name="comentarios" rows="4" required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer></footer>
+
+</body>
+</html>

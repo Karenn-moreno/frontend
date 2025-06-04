@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #99a199;
+}
+
+form{
+    max-width: 400px; /*LIMITA EL ANCHO DEL FORMULARIO A 400PX*/
+    margin:20px auto; /*PONGO 20PX DE MARGEN SUPERIOR E INFERIOR-LO CENTRO CON AUTO*/
+    background-color:#fff;
+    padding: 20px;/*AGREGO 20PX DE DISTANCIA INTERNA DEL ELEMENTO AL BORDE*/
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);/*APLICA UNA SOMBRA AL 50% AL REDEDOR DEL FORMULARIO
+    SENSACION DE PROFUNDIDAD*/
+}
+
+label{
+    display: block; /*HACE QUE LAS ETIQUETAS SE MUESTREN COMO BLOQUES 
+    COLOCANDO EN LINEAS-RENGLONES- SEPARADAS*/
+    margin-bottom: 8px;/*COLO 8PX DE MARGEN INFERIOR*/
+}
+
+/*input{
+    border-radius: 0px;
+}*/
+
+input, textarea{
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    background:#214ddf;
+    color:#fff;
+    cursor: pointer; /*COLOCO PUNTERO TIPO MANO*/
+}
+input[type="submit"]:hover{ /*cuando yo paso el puntero sobre el boton*/
+    background:#214ddf ;
+}
+
+input:focus,textarea:focus{
+    background-color: #65c2da;
+}

@@ -1,0 +1,46 @@
+body{
+    background-color: #f55;
+}
+
+h1{
+    font-family: "arial black";
+    font-size: 80px;
+    background:linear-gradient(#090978,#8168f1,#5936f5f6);
+    background-clip: text;/* solo para el texto*/
+    -webkit-text-fill-color: transparent;
+}
+
+p{
+    color:#fff;
+}
+
+#uno{
+    width: 100px; /*Ancho*/
+    height: 100px;/*Alto*/
+    background-color: #4f8;
+    text-align: center;
+}
+#dos{
+    width: 100px; /*Ancho*/
+    height: 100px;/*Alto*/
+    background-color: #345;
+    text-align: center;
+    color:#fff;
+}
+
+#lineal{
+    width: 150px;
+    height: 150px;
+    text-align: right;
+    background: linear-gradient(#090978,#8168f1,#5936f5f6);
+    color:#fff;
+
+}
+
+#radial{
+    width: 150px;
+    height: 150px;
+    text-align: left;
+    background: radial-gradient(#090978,#8168f1,#5936f5f6);
+    color:#fff;
+}

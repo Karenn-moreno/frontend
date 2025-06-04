@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#sonic{
+    border:4px solid #000;
+    width: 350px;
+    border-radius: 70%;
+    padding: 10px;
+    background: #0f0;
+}
+body{
+    background-image: url("imagenes/marvel.jpg");
+}
+#cara{
+    width:350px;
+    border-radius: 50%;
+}
