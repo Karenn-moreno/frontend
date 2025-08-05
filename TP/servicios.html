@@ -11,35 +11,28 @@
 </head>
 <body>
 
-    <header>
-        <img src="img/logo.png" class="logo" />
-        <!--PARA HACER CLICK-->
-        <input type="checkbox" id="btn-menu"/>
-        <!--PARA HACER CLICK EN LA IMAGEN SE ACTIVA EL CHECK BOX-->
-        <label for="btn-menu"><img src="img/logoMenu.png"></label>
+    <header class="encabezado">
+    <div class="logo-container">
+    <img src="img/logo1.png" class="logo" alt="Logo" />
+    </div>
 
-        <nav class="menu">
-            <ul>
-            <li><a class="link" href="index.html">Inicio</a></li>
-            <li><a class="link" href="servicios.html">Servicios</a></li>
-            <li><a class="link" href="#">Productos</a></li>
-            <li><a class="link" href="#">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+  <input type="checkbox" id="btn-menu" />
+  <label for="btn-menu" class="icono-menu">
+    <img src="img/logoMenu (2).png" alt="Menú" class="menus" />
+  </label>
+
+  <nav class="menu">
+    <ul>
+      <li><a class="link" href="index.html">Inicio</a></li>
+      <li><a class="link" href="servicios.html">Servicios</a></li>
+      <li><a class="link" href="estilos.html">Estilos</a></li>
+      <li><a class="link" href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
 
     <main id="principal">
         <article>
-          <!-- <section class="seccion-servicios">
-  <h2 class="titulo-animado">Nuestros Servicios</h2>
-  <ul class="lista-servicios">
-    <li>Manicuría tradicional y semipermanente</li>
-    <li>Pedicuría spa y estética</li>
-    <li>Esmaltado en gel y nail art</li>
-    <li>Tratamientos faciales hidratantes</li>
-    <li>Uñas esculpidas y refuerzo de uñas</li>
-  </ul>
-</section>-->
 <section class="seccion-servicios">
   <h2 class="titulo-animado">Nuestros Servicios</h2>
   <ul class="lista-servicios">
@@ -68,22 +61,35 @@
       </label>
     </li>
 
+    <li>
+      <input type="checkbox" id="servicio4">
+      <label for="servicio4">
+        <strong>Acrilico</strong>
+        <p class="descripcion">Una mezcla de polímero y monómero que se endurece al aire para crear uñas resistentes.</p>
+      </label>
+    </li>
+
+    <li>
+      <input type="checkbox" id="servicio5">
+      <label for="servicio5">
+        <strong>Poligel</strong>
+        <p class="descripcion">Combina lo mejor del acrílico y gel: más ligero, moldeable y flexible.</p>
+      </label>
+    </li>
+
   </ul>
 </section>
-
-            
         </article>
     </main>
-
     <footer>
-        <!--  copyright @ 2023- el Portfolio inicial de una estudiante
-        <a href="morenokaren@gmail.com">enviame un correo></a>
-        <a href="tel:+54339654">llamame!</a>
-        <a href="whatsapp://send?text=hola karen">llamar por wtsp</a> */-->
+        <a href="https://www.instagram.com/punkknails?igsh=bWo0cTQ2bm5mN2E%3D&utm_source=qr">
         <img src="img/logoInstagram.png" class="logoInsta"/>
-        <img src="img/logoCorreo.png" class="logoCorreo"/>
+        </a> 
+        <a href="antonails@gmail.com">
+        <img src="img/iconCorreo.png" class="iconCorreo"/>
+        </a>   
+        <a href="whatsapp://send?text=hola antonella">  <img src="img/iconWtsp.png" class="iconWtsp"/>
+        </a> 
     </footer>
-
 </body>
-    
 </html>

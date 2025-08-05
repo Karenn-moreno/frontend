@@ -1,0 +1,1 @@
+document.getElementById("bt3").addEventListener("click",()=> alert("hola")); //en un solo reglon sin usar variable

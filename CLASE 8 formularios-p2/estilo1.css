@@ -34,16 +34,15 @@ input, textarea{
     margin-bottom: 15px;
     box-sizing: border-box;
 }
-
 input[type="submit"]{
     background:#214ddf;
     color:#fff;
     cursor: pointer; /*COLOCO PUNTERO TIPO MANO*/
 }
 input[type="submit"]:hover{ /*cuando yo paso el puntero sobre el boton*/
-    background:#214ddf ;
+    background:#21a3df ;
 }
 
 input:focus,textarea:focus{
-    background-color: #65c2da;
+    background-color: #e6c6d9;
 }

@@ -1,47 +1,8 @@
-/*.seccion-servicios {
-  max-width: 800px;
-  margin: 60px auto;
-  padding: 20px;
+.titulo-animado{
+  color:#d63384;
   text-align: center;
-  font-family: 'Segoe UI', sans-serif;
-  color: #333;
+  margin-top: 5px;
 }
-
-.titulo-animado {
-  font-size: 2.2rem;
-  margin-bottom: 20px;
-  position: relative;
-  display: inline-block;
-  padding-bottom: 10px;
-}
-
-.titulo-animado::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 3px;
-  background-color: #d487a1;
-  transition: width 0.4s ease-in-out;
-}
-
-.lista-servicios {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.lista-servicios li {
-  font-size: 1.2rem;
-  padding: 10px 0;
-  border-bottom: 1px solid #e0e0e0;
-}
-
-.lista-servicios li:last-child {
-  border-bottom: none;
-}
-*/
 .lista-servicios li {
   position: relative;
   background: #fff;
@@ -52,25 +13,19 @@
   transition: 0.3s ease;
   cursor: pointer;
 }
-
 /* Oculta el input checkbox */
 .lista-servicios input[type="checkbox"] {
   display: none;
 }
-
-/* Estiliza el label como si fuera todo el contenido clickeable */
 .lista-servicios label {
   display: block;
   cursor: pointer;
 }
-
 /* Texto del título */
 .lista-servicios strong {
   color: #d487a1;
   font-size: 1.3rem;
 }
-
-/* Descripción oculta por defecto */
 .lista-servicios .descripcion {
   max-height: 0;
   overflow: hidden;
@@ -79,8 +34,7 @@
   font-size: 1rem;
   margin-top: 10px;
 }
-
 /* Cuando el input está checked, muestra la descripción */
 .lista-servicios input[type="checkbox"]:checked + label .descripcion {
-  max-height: 200px; /* suficiente espacio para el texto */
+  max-height: 200px; 
 }
