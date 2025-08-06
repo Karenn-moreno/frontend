@@ -1,0 +1,40 @@
+.titulo-animado{
+  color:#d63384;
+  text-align: center;
+  margin-top: 5px;
+}
+.lista-servicios li {
+  position: relative;
+  background: #fff;
+  border-radius: 8px;
+  margin: 12px 0;
+  padding: 15px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+/* Oculta el input checkbox */
+.lista-servicios input[type="checkbox"] {
+  display: none;
+}
+.lista-servicios label {
+  display: block;
+  cursor: pointer;
+}
+/* Texto del título */
+.lista-servicios strong {
+  color: #333;
+  font-size: 1.3rem;
+}
+.lista-servicios .descripcion {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  color: #555;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+/* Cuando el input está checked, muestra la descripción */
+.lista-servicios input[type="checkbox"]:checked + label .descripcion {
+  max-height: 200px; 
+}
