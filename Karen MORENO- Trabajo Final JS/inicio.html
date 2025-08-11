@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="CSS/inicio.css" id="vinculo">
+    <link rel="stylesheet" href="CSS/menu.css">
+</head>
+<body>
+    <header class="encabezado">
+    <div class="logo-container">
+        <img src="img/logo.png" class="logo" alt="Logo" />
+    </div>
+
+  <input type="checkbox" id="btn-menu" />
+  <label for="btn-menu" class="icono-menu">
+    <img src="IMG/logoMenuL.png" alt="menu" class="logoMenu"/>
+  </label>
+
+  <nav class="menu">
+    <ul>
+      <li><a class="link" href="inicio.html">Inicio</a></li>
+      <li><a class="link" href="productos.html">Productos</a></li>
+      <li><a class="link" href="guiaTalles.html">Guia de talles</a></li>
+      <li><a class="link" href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <main id="principal">
+
+  
+    <section class="contenedor_galeria">
+        <section class="contenedor_imagen">
+            <a href="foto1.html"><img src="img/portada1.jpg" class="imagen" alt=""/></a>
+        </section>
+
+        <section class="contenedor_imagen">
+            <a href="#"><img src="img/portada2.jpg" class="imagen" alt=""/></a>
+        </section>
+
+        <section class="contenedor_imagen">
+            <a href="#"><img src="img/portada3.jpg" class="imagen" alt=""/></a>
+        </section>
+
+        </section>
+  </main>
+
+<!--<button onclick="modoOscuro()">Modo oscuro</button>-->
+<button id="btnModo" onclick="alternarModo()">Modo oscuro</button>
+
+    <script src="JS/inicioD.js"></script>
+
+     <footer>
+        <a href="#">
+        <img src="#" class="logoInsta"/>
+        </a> 
+        <a href="retrobeat@gmail.com">
+        <img src="IMG/iconCorreo.png" class="iconCorreo"/>
+        </a>   
+        <a href="whatsapp://send?text=hola retrobeat">  <img src="IMG/iconWtsp.png" class="iconWtsp"/>
+        </a> 
+    </footer>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--TP DDFE Moreno Karen -->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="CSS/menu.css">
+    <link rel="stylesheet" href="CSS/inicio.css">
+    <link rel="stylesheet" href="CSS/productos.css">
+</head>
+<body>
+<header class="encabezado">
+    <div class="logo-container">
+    <img src="img/logo.png" class="logo" alt="Logo"/>
+    </div>
+    <input type="checkbox" id="btn-menu" />
+    <label for="btn-menu" class="icono-menu">
+    <img src="IMG/logoMenuL.png" alt="menu" class="logoMenu"/>
+    </label>
+
+    <nav class="menu">
+    <ul>
+        <li><a class="link" href="inicio.html">Inicio</a></li>
+        <li><a class="link" href="productos.html">Productos</a></li>
+        <li><a class="link" href="guiaTalles.html">Guia de talles</a></li>
+        <li><a class="link" href="contacto.html">Contacto</a></li>
+    </ul>
+    </nav>
+</header>
+
+    <main id="principal">
+
+    <div class="contenedor">
+        <div class="galeria_item">
+            <img src="img/img1.jpg" class="imagen">
+            <h2 class="titulo">$23.400</h2>
+    </div>
+
+    <div class="galeria_item">
+        <img src="img/img2.jpg" class="imagen">
+        <h2 class="titulo">$26.000</h2>
+    </div>
+    <div class="galeria_item">
+        <img src="img/img3.jpg" class="imagen">
+        <h2 class="titulo">$21.000</h2>
+    </div>
+    <div class="galeria_item">
+        <img src="img/img4.jpg" class="imagen">
+        <h2 class="titulo">$19.500</h2>
+    </div>
+    <div class="galeria_item">
+        <img src="img/img5.jpg" class="imagen">
+        <h2 class="titulo">$23.900</h2>
+    </div>
+    <div class="galeria_item">
+        <img src="img/img6.jpg" class="imagen">
+        <h2 class="titulo">$22.000</h2>
+    </div>
+
+    </div>  
+
+        <!--Modal para mostrar la imagen grande-->
+        <div id="imagenModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="imgModal">
+    </div>
+
+
+    <script src="JS/galeria.js"></script>
+
+</main>
+
+<button id="btnModo" onclick="alternarModo()">Modo oscuro</button>
+
+    <script src="JS/inicioD.js"></script>
+    <footer>
+        <a href="#">
+        <img src="#" class="logoInsta"/>
+        </a> 
+        <a href="retrobeat@gmail.com">
+        <img src="IMG/iconCorreo.png" class="iconCorreo"/>
+        </a>   
+        <a href="whatsapp://send?text=hola retrobeat">  <img src="IMG/iconWtsp.png" class="iconWtsp"/>
+        </a> 
+    </footer>
+</body>
+</html>

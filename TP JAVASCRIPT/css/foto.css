@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor_foto{
+    width: 90%;
+    height: 90%;
+    margin: 20px auto;
+    background: #eec7e9;
+}
+.foto{
+    width: 100%;
+}
